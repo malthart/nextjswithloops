@@ -132,12 +132,12 @@ export default function SignUpFormReact() {
           <div className="overflow-hidden">
             <div className="px-4 md:px-8">
               <div className="mx-auto w-full max-w-6xl">
-                <div className="grid w-full gap-4 pb-16 pt-52">
+                <div className="grid w-full gap-4 pb-16 pt-60">
                   <h1 className="grid text-5xl font-bold tracking-tight md:text-[4.75rem] lg:text-[4.75rem] text-center">
                     <span><a className="text-[#000000]">NextJS</a> with <a className="text-[#fc5200]">Loops</a></span>
                   </h1>
                   <h2 className="grid font-medium tracking-tight text-center">
-                    <span>Lead generation & e-mail automation-ready boiler plate built with NextJS, Tailwind & Loops.</span>
+                    <span>Lead generation & e-mail automation-ready boilerplate built with NextJS, Tailwind & Loops.</span>
                   </h2>
                   <div className="inline-flex w-full">
                     <div className="flex w-full flex-col gap-6">
@@ -178,12 +178,12 @@ export default function SignUpFormReact() {
             <div className="overflow-hidden">
               <div className="px-4 md:px-8">
                 <div className="mx-auto w-full max-w-6xl">
-                  <div className="grid w-full gap-4 pb-16 pt-52">
+                  <div className="grid w-full gap-4 pb-16 pt-60">
                     <h1 className="grid text-5xl font-bold tracking-tight md:text-[4.75rem] lg:text-[4.75rem] text-center">
                       <span><a className="text-[#000000]">NextJS</a> with <a className="text-[#fc5200]">Loops</a></span>
                     </h1>
                     <h2 className="grid font-medium tracking-tight text-center">
-                      <span>Lead generation & e-mail automation-ready boiler plate built with NextJS, Tailwind & Loops.</span>
+                      <span>Lead generation & e-mail automation-ready boilerplate built with NextJS, Tailwind & Loops.</span>
                     </h2>
                     <div className="inline-flex w-full">
                       <div className="flex w-full flex-col gap-6">
@@ -208,12 +208,12 @@ export default function SignUpFormReact() {
             <div className="overflow-hidden">
               <div className="px-4 md:px-8">
                 <div className="mx-auto w-full max-w-6xl">
-                  <div className="grid w-full gap-4 pb-16 pt-52">
+                  <div className="grid w-full gap-4 pb-16 pt-60">
                     <h1 className="grid text-5xl font-bold tracking-tight md:text-[4.75rem] lg:text-[4.75rem] text-center">
                       <span><a className="text-[#000000]">NextJS</a> with <a className="text-[#fc5200]">Loops</a></span>
                     </h1>
                     <h2 className="grid font-medium tracking-tight text-center">
-                      <span>Lead generation & e-mail automation-ready boiler plate built with NextJS, Tailwind & Loops.</span>
+                      <span>Lead generation & e-mail automation-ready boilerplate built with NextJS, Tailwind & Loops.</span>
                     </h2>
                     <div className="inline-flex w-full">
                       <div className="flex w-full flex-col gap-6">
