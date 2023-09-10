@@ -7,7 +7,11 @@ const ERROR = "ERROR";
 const SUCCESS = "SUCCESS";
 const formStates = [INIT, SUBMITTING, ERROR, SUCCESS] as const;
 const formStyles = {
-  "id": "clm7jxme500ewl40pcvl74azk",
+
+  // Change ID to your own Loops ID
+
+  "id": "",
+
   "name": "Default",
   "formStyle": "inline",
   "placeholderText": "your@email.com",
@@ -128,10 +132,13 @@ export default function SignUpFormReact() {
           <div className="overflow-hidden">
             <div className="px-4 md:px-8">
               <div className="mx-auto w-full max-w-6xl">
-                <div className="grid w-full gap-8 pb-16 pt-12 md:gap-16">
-                  <h1 className="grid gap-16 text-5xl font-bold tracking-tight md:text-[4.75rem] lg:text-[4.75rem] text-center">
+                <div className="grid w-full gap-4 pb-16 pt-52">
+                  <h1 className="grid text-5xl font-bold tracking-tight md:text-[4.75rem] lg:text-[4.75rem] text-center">
                     <span><a className="text-[#000000]">NextJS</a> with <a className="text-[#fc5200]">Loops</a></span>
                   </h1>
+                  <h2 className="grid font-medium tracking-tight text-center">
+                    <span>Lead generation & e-mail automation-ready boiler plate built with NextJS, Tailwind & Loops.</span>
+                  </h2>
                   <div className="inline-flex w-full">
                     <div className="flex w-full flex-col gap-6">
                       <div>
@@ -167,8 +174,31 @@ export default function SignUpFormReact() {
     case ERROR:
       return (
         <>
-          <SignUpFormError />
-          <BackButton />
+          <div className="flex flex-1 flex-col">
+            <div className="overflow-hidden">
+              <div className="px-4 md:px-8">
+                <div className="mx-auto w-full max-w-6xl">
+                  <div className="grid w-full gap-4 pb-16 pt-52">
+                    <h1 className="grid text-5xl font-bold tracking-tight md:text-[4.75rem] lg:text-[4.75rem] text-center">
+                      <span><a className="text-[#000000]">NextJS</a> with <a className="text-[#fc5200]">Loops</a></span>
+                    </h1>
+                    <h2 className="grid font-medium tracking-tight text-center">
+                      <span>Lead generation & e-mail automation-ready boiler plate built with NextJS, Tailwind & Loops.</span>
+                    </h2>
+                    <div className="inline-flex w-full">
+                      <div className="flex w-full flex-col gap-6">
+                        <div className="text-center">
+                          <SignUpFormError />
+                          <BackButton />
+                        </div>
+                        <p className="font-normal text-sm text-inherit -mt-1 text-neutral-400 text-center">Built by <a href="https://twitter.com/malthart" className="font-medium underline underline-offset-4">malthart</a>. The source code is available on <a href="https://github.com/malthart/nextjswithloops" className="font-medium underline underline-offset-4">Github</a>.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </>
       );
     default:
@@ -178,10 +208,13 @@ export default function SignUpFormReact() {
             <div className="overflow-hidden">
               <div className="px-4 md:px-8">
                 <div className="mx-auto w-full max-w-6xl">
-                  <div className="grid w-full gap-8 pb-16 pt-12 md:gap-16">
-                    <h1 className="grid gap-16 text-5xl font-bold tracking-tight md:text-[4.75rem] lg:text-[4.75rem] text-center">
+                  <div className="grid w-full gap-4 pb-16 pt-52">
+                    <h1 className="grid text-5xl font-bold tracking-tight md:text-[4.75rem] lg:text-[4.75rem] text-center">
                       <span><a className="text-[#000000]">NextJS</a> with <a className="text-[#fc5200]">Loops</a></span>
                     </h1>
+                    <h2 className="grid font-medium tracking-tight text-center">
+                      <span>Lead generation & e-mail automation-ready boiler plate built with NextJS, Tailwind & Loops.</span>
+                    </h2>
                     <div className="inline-flex w-full">
                       <div className="flex w-full flex-col gap-6">
                         <div>
@@ -249,7 +282,7 @@ export default function SignUpFormReact() {
             fontSize: "14px",
           }}
         >
-          {errorMessage || "Oops! Something went wrong, please try again"}
+          {errorMessage || "Oops! Something is not right here, please try again"}
         </p>
       </div>
     );
@@ -274,7 +307,7 @@ export default function SignUpFormReact() {
         onMouseOver={() => setIsHovered(true)}
         onClick={resetForm}
       >
-        &larr; Back
+        &larr; Go back
       </button>
     );
   }
