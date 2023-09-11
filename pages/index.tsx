@@ -8,7 +8,7 @@ const SUCCESS = "SUCCESS";
 const formStates = [INIT, SUBMITTING, ERROR, SUCCESS] as const;
 const formStyles = {
 
-  // Change ID to your own Loops ID
+  // Add your own Loops ID
 
   "id": "",
 
