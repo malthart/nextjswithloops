@@ -126,6 +126,9 @@ export default function SignUpFormReact() {
   const isInline = formStyles.formStyle === "inline";
 
   switch (formState) {
+
+    // This is the SUCCESS state of the site.
+
     case SUCCESS:
       return (
         <div className="flex flex-1 flex-col">
@@ -171,6 +174,9 @@ export default function SignUpFormReact() {
           </div>
         </div>
       );
+
+    // This is the ERROR state of the site.
+
     case ERROR:
       return (
         <>
@@ -201,6 +207,9 @@ export default function SignUpFormReact() {
           </div>
         </>
       );
+
+    // This is the DEFAULT state of the site.
+
     default:
       return (
         <>
