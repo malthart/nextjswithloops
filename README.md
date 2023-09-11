@@ -22,4 +22,4 @@ Licensed under the MIT license.
 
 ## Support
 
-Please direct all support inqiuries to [malthart](https://twitter.com/malthart)https://twitter.com/malthart on X.
+Please direct all support inqiuries to [malthart](https://twitter.com/malthart) on X.
