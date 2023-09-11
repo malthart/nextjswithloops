@@ -1,6 +1,6 @@
 Accessible and customizable boilerplate that you can copy and paste to build on top of. Free. Open Source. Use this to build your own lead generation website.
 
-![nextjswithloops](https://github.com/malthart/nextjswithloops/assets/60468364/79f885da-094a-4c03-9d84-a3bc4c8febb4)
+![nextjswithloops](https://github.com/malthart/nextjswithloops/assets/60468364/393be67c-26b3-447a-b54b-0b4554665c25)
 
 ## Documentation
 
