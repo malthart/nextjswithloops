@@ -10,7 +10,7 @@ const formStyles = {
 
   // Add your own Loops ID
 
-  "id": " ",
+  "id": "",
 
   "name": "Default",
   "formStyle": "inline",
