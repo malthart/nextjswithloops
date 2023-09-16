@@ -139,9 +139,9 @@ export default function SignUpFormReact() {
                   <div className="mx-auto w-full">
                     <div className="top-[var(--avatar-top,theme(spacing.3))] w-full">
                       <div className="relative">
-                        <a aria-label="Home" className="block h-16 w-16 origin-left pointer-events-auto" href="/">
+                        <a aria-label="Home" className="block h-16 w-16 origin-left pointer-events-auto">
                           {/* Photo by Alexander Ant: https://www.pexels.com/photo/abstract-background-of-multicolored-neon-paints-4585184/ */}
-                          <img alt="" width="512" height="512" decoding="async" data-nimg="1" className="rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-16 w-16" sizes="4rem" src="/pexels-alexander-ant-4585184-min.jpg" />
+                          <img alt="avatar" width="512" height="512" decoding="async" data-nimg="1" className="rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-16 w-16" sizes="4rem" src="/pexels-alexander-ant-4585184-min.jpg" />
                         </a>
                       </div>
                     </div>
@@ -230,9 +230,9 @@ export default function SignUpFormReact() {
                     <div className="mx-auto w-full">
                       <div className="top-[var(--avatar-top,theme(spacing.3))] w-full">
                         <div className="relative">
-                          <a aria-label="Home" className="block h-16 w-16 origin-left pointer-events-auto" href="/">
+                          <a aria-label="Home" className="block h-16 w-16 origin-left pointer-events-auto">
                             {/* Photo by Alexander Ant: https://www.pexels.com/photo/abstract-background-of-multicolored-neon-paints-4585184/ */}
-                            <img alt="" width="512" height="512" decoding="async" data-nimg="1" className="rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-16 w-16" sizes="4rem" src="/pexels-alexander-ant-4585184-min.jpg" />
+                            <img alt="avatar" width="512" height="512" decoding="async" data-nimg="1" className="rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-16 w-16" sizes="4rem" src="/pexels-alexander-ant-4585184-min.jpg" />
                           </a>
                         </div>
                       </div>
@@ -306,9 +306,9 @@ export default function SignUpFormReact() {
                     <div className="mx-auto w-full">
                       <div className="top-[var(--avatar-top,theme(spacing.3))] w-full">
                         <div className="relative">
-                          <a aria-label="Home" className="block h-16 w-16 origin-left pointer-events-auto" href="/">
+                          <a aria-label="Home" className="block h-16 w-16 origin-left pointer-events-auto">
                             {/* Photo by Alexander Ant: https://www.pexels.com/photo/abstract-background-of-multicolored-neon-paints-4585184/ */}
-                            <img alt="" width="512" height="512" decoding="async" data-nimg="1" className="rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-16 w-16" sizes="4rem" src="/pexels-alexander-ant-4585184-min.jpg" />
+                            <img alt="avatar" width="512" height="512" decoding="async" data-nimg="1" className="rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-16 w-16" sizes="4rem" src="/pexels-alexander-ant-4585184-min.jpg" />
                           </a>
                         </div>
                       </div>
