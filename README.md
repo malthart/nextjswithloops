@@ -12,6 +12,10 @@ Accessible and customizable boilerplate that you can copy and paste to build on 
 
 More elaborate documentation with styling coming soon.
 
+## Templates
+
+Go to /templates to see available templates.
+
 ## Stack
 
 The boilerplate is built using [NextJS](https://nextjs.org/) (Typescript), [TailwindCSS](https://tailwindcss.com/) & [Loops](https://loops.so/).
