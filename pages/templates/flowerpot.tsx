@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Tilt from 'react-parallax-tilt';
 import { Inter } from 'next/font/google'
 
 const INIT = "INIT";
@@ -23,8 +24,8 @@ const formStyles = {
 
     "buttonText": "Join the waitlist",
     "buttonFont": "Inter",
-    "buttonFontColor": "#FFFFFFF",
-    "buttonColor": "#eac8ff",
+    "buttonFontColor": "#FFFFFF",
+    "buttonColor": "#4CBD77",
     "buttonFontSizePx": 14,
 
     // Customize the success message
@@ -142,15 +143,24 @@ export default function SignUpFormReact() {
                                         <div className="mx-auto w-full">
                                             <div className="top-[var(--avatar-top,theme(spacing.3))] w-full">
                                                 <div className="relative w-full">
-                                                    <a>
-                                                        <img alt="avatar" decoding="async" data-nimg="1" className="mx-auto rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 w-[50%] md:w-[50%] lg:w-[70%]" src="/TEuabszqVAwLcAPGE0yeHgRjBjQ.webp" />
-                                                    </a>
+                                                    <Tilt
+                                                        className="track-on-window"
+                                                        tiltMaxAngleX={35}
+                                                        tiltMaxAngleY={35}
+                                                        perspective={900}
+                                                        transitionSpeed={2000}
+                                                        gyroscope={true}
+                                                        trackOnWindow={true}>
+                                                        <a>
+                                                            <img alt="avatar" decoding="async" data-nimg="1" className="mx-auto rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 w-[50%] md:w-[50%] lg:w-[70%]" src="/flowerpot/sunflower.webp" />
+                                                        </a>
+                                                    </Tilt>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div className="max-w-2xl">
-                                            <h1 className="mt-6 text-4xl font-extrabold tracking-normal text-center text-zinc-800 dark:text-zinc-100 sm:text-5xl">Welcome to <br />Product Name</h1>
+                                            <h1 className="mt-6 text-4xl font-extrabold tracking-normal text-center text-zinc-800 dark:text-zinc-100 sm:text-5xl">Welcome to <br />Flowerpot</h1>
                                             <p className="mt-3 text-lg font-normal text-zinc-600 dark:text-zinc-400 text-center">The ultimate landing page that will 10x your waitlist is launching soon.</p>
                                         </div>
 
@@ -245,15 +255,24 @@ export default function SignUpFormReact() {
                                         <div className="mx-auto w-full">
                                             <div className="top-[var(--avatar-top,theme(spacing.3))] w-full">
                                                 <div className="relative w-full">
-                                                    <a>
-                                                        <img alt="avatar" decoding="async" data-nimg="1" className="mx-auto rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 w-[50%] md:w-[50%] lg:w-[70%]" src="/TEuabszqVAwLcAPGE0yeHgRjBjQ.webp" />
-                                                    </a>
+                                                    <Tilt
+                                                        className="track-on-window"
+                                                        tiltMaxAngleX={35}
+                                                        tiltMaxAngleY={35}
+                                                        perspective={900}
+                                                        transitionSpeed={2000}
+                                                        gyroscope={true}
+                                                        trackOnWindow={true}>
+                                                        <a>
+                                                            <img alt="avatar" decoding="async" data-nimg="1" className="mx-auto rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 w-[50%] md:w-[50%] lg:w-[70%]" src="/flowerpot/sunflower.webp" />
+                                                        </a>
+                                                    </Tilt>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div className="max-w-2xl">
-                                            <h1 className="mt-6 text-4xl font-extrabold tracking-normal text-center text-zinc-800 dark:text-zinc-100 sm:text-5xl">Welcome to <br />Product Name</h1>
+                                            <h1 className="mt-6 text-4xl font-extrabold tracking-normal text-center text-zinc-800 dark:text-zinc-100 sm:text-5xl">Welcome to <br />Flowerpot</h1>
                                             <p className="mt-3 text-lg font-normal text-zinc-600 dark:text-zinc-400 text-center">The ultimate landing page that will 10x your waitlist is launching soon.</p>
                                         </div>
 
@@ -330,15 +349,24 @@ export default function SignUpFormReact() {
                                         <div className="mx-auto w-full">
                                             <div className="top-[var(--avatar-top,theme(spacing.3))] w-full">
                                                 <div className="relative w-full">
-                                                    <a>
-                                                        <img alt="avatar" decoding="async" data-nimg="1" className="mx-auto rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 w-[50%] md:w-[50%] lg:w-[70%]" src="/TEuabszqVAwLcAPGE0yeHgRjBjQ.webp" />
-                                                    </a>
+                                                    <Tilt
+                                                        className="track-on-window"
+                                                        tiltMaxAngleX={35}
+                                                        tiltMaxAngleY={35}
+                                                        perspective={900}
+                                                        transitionSpeed={2000}
+                                                        gyroscope={true}
+                                                        trackOnWindow={true}>
+                                                        <a>
+                                                            <img alt="avatar" decoding="async" data-nimg="1" className="mx-auto rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 w-[50%] md:w-[50%] lg:w-[70%]" src="/flowerpot/sunflower.webp" />
+                                                        </a>
+                                                    </Tilt>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div className="max-w-2xl">
-                                            <h1 className="mt-6 text-4xl font-extrabold tracking-normal text-center text-zinc-800 dark:text-zinc-100 sm:text-5xl">Welcome to <br />Product Name</h1>
+                                            <h1 className="mt-6 text-4xl font-extrabold tracking-normal text-center text-zinc-800 dark:text-zinc-100 sm:text-5xl">Welcome to <br />Flowerpot</h1>
                                             <p className="mt-3 text-lg font-normal text-zinc-600 dark:text-zinc-400 text-center">The ultimate landing page that will 10x your waitlist is launching soon.</p>
                                         </div>
 
