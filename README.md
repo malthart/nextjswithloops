@@ -16,6 +16,8 @@ More elaborate documentation with styling coming soon.
 
 Go to /templates to see available templates.
 
+Flowerpot template: https://nextjswithloops.com/templates/flowerpot
+
 ## Stack
 
 The boilerplate is built using [NextJS](https://nextjs.org/) (Typescript), [TailwindCSS](https://tailwindcss.com/) & [Loops](https://loops.so/).
