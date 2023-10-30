@@ -16,7 +16,8 @@ More elaborate documentation with styling coming soon.
 
 Go to /templates to see available templates.
 
-Flowerpot template: https://nextjswithloops.com/templates/flowerpot
+Flowerpot: https://nextjswithloops.com/templates/flowerpot
+Zinc: https://nextjswithloops.com/templates/zinc
 
 ## Stack
 
