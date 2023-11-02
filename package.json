@@ -1,14 +1,28 @@
 {
   "name": "nextjswithloops",
-  "version": "0.1.2",
-  "private": false,
+  "version": "0.1.0",
+  "description": "Accessible and customizable boilerplate that you can copy and paste to build on top of. Free. Open Source. Use this to build your own lead generation website.",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "tsup pages/index.tsx --watch",
+    "build": "tsup pages/index.tsx"
   },
-  "dependencies": {
+  "main": "index.tsx",
+  "keywords": [
+    "nextjs",
+    "loops",
+    "nextjswithloops"
+  ],
+  "author": "Malthe Hartmann",
+  "license": "MIT",
+  "homepage": "https://nextjswithloops.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malthart/nextjswithloops.git"
+  },
+  "bugs": {
+    "url": "https://github.com/malthart/nextjswithloops/issues"
+  },
+  "devDependencies": {
     "@types/node": "20.6.0",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
@@ -24,21 +38,8 @@
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
   },
-  "description": "Accessible and customizable boilerplate that you can copy and paste to build on top of. Free. Open Source. Use this to build your own lead generation website.",
-  "main": "index.tsx",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/malthart/nextjswithloops.git"
-  },
-  "keywords": [
-    "nextjs",
-    "loops",
-    "nextjswithloops"
-  ],
-  "author": "Malthe Hartmann",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/malthart/nextjswithloops/issues"
-  },
-  "homepage": "https://github.com/malthart/nextjswithloops#readme"
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
 }
