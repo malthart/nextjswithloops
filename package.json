@@ -1,7 +1,7 @@
 {
   "name": "nextjswithloops",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -23,5 +23,23 @@
     "react-parallax-tilt": "^1.7.171",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
-  }
+  },
+  "description": "Accessible and customizable boilerplate that you can copy and paste to build on top of. Free. Open Source. Use this to build your own lead generation website.",
+  "main": "next.config.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malthart/nextjswithloops.git"
+  },
+  "keywords": [
+    "nextjs",
+    "loops",
+    "nextjswithloops"
+  ],
+  "author": "Malthe Hartmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malthart/nextjswithloops/issues"
+  },
+  "homepage": "https://github.com/malthart/nextjswithloops#readme"
 }
