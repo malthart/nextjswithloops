@@ -16,8 +16,8 @@
     "autoprefixer": "10.4.15",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
-    "next": "13.4.19",
-    "postcss": "8.4.29",
+    "next": "^13.5.6",
+    "postcss": "^8.4.31",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-parallax-tilt": "^1.7.171",
@@ -25,8 +25,7 @@
     "typescript": "5.2.2"
   },
   "description": "Accessible and customizable boilerplate that you can copy and paste to build on top of. Free. Open Source. Use this to build your own lead generation website.",
-  "main": "next.config.js",
-  "devDependencies": {},
+  "main": "index.tsx",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/malthart/nextjswithloops.git"
