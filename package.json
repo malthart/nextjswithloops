@@ -28,7 +28,7 @@
   "main": "index.tsx",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/malthart/nextjswithloops.git"
+    "url": "https://github.com/malthart/nextjswithloops.git"
   },
   "keywords": [
     "nextjs",
