@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Accessible and customizable boilerplate that you can copy and paste to build on top of. Free. Open Source. Use this to build your own lead generation website.",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build"
   },
   "main": "index.tsx",
   "keywords": [
@@ -40,5 +41,8 @@
   "peerDependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "dependencies": {
+    "react-confetti": "^6.1.0"
   }
 }

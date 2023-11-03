@@ -31,6 +31,11 @@ module.exports = {
         },
       },
 
+      cursor: {
+        default: 'url(/Nextjs-logo.png), default',
+        pointer: 'url(/images/cursor.png), pointer',
+      },
+
     },
   },
   plugins: [],
