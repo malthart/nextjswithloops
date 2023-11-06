@@ -1,6 +1,6 @@
 {
   "name": "nextjswithloops",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Accessible and customizable boilerplate that you can copy and paste to build on top of. Free. Open Source. Use this to build your own lead generation website.",
   "scripts": {
     "dev": "next dev",
