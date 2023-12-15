@@ -135,7 +135,7 @@ export default function SignUpRicochet() {
             return (
                 <>
                     <div className="flex mt-8 h-[108px] justify-center relative mx-auto my-auto cursor-default">
-                        <h1 className="flex relative my-auto text-base font-medium tracking-normal text-center text-[#6F7071]">You've been added to our mailing list.</h1>
+                        <h1 className="flex relative my-auto text-base font-medium tracking-normal text-center text-[#6F7071]">You&apos;ve been added to our mailing list.</h1>
                     </div>
                 </>
             );
