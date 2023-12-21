@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bento-box {
+    @apply hover:bg-slate-100/50 border border-x-gray-300 w-full rounded-3xl p-4 shadow-sm active:scale-[.98] transition-all duration-100;
+}
+
+.bento-X {
+    @apply border bg-black/5 border-x-gray-300 w-full rounded-3xl p-4 shadow-sm active:scale-[.98] transition-all duration-100;
+}
